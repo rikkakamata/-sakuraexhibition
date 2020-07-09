@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>さくら展</title>
+<style>
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border: none;
+}
+.backgreen {
+    background-color: #F1F1F1;
+}
+nav {
+    display: none;
+}
+.backsakura {
+    background-image: url("images/back.jpg");
+}
+header {
+    position: relative;
+    border-bottom: 3px solid #fff4f4;
+}
+h1 {
+    position: relative;
+    width: 24%;
+    text-align: center;
+    max-width: 160px;
+    left: 50%;
+    margin-left: -12%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+header p {
+    position: absolute;
+    width: 8%;
+    min-width: 44px;
+    max-width: 66px;
+    top: 3%;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+h2 {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+.copy {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #fff4f4;
+}
+h3 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #f29c9f;
+    border-top: 3px solid #f29c9f;
+    font-size: 20px;
+}
+.overview {
+    background-image: url("images/wasi.png");
+}
+h4 {
+    font-size: 15px;
+}
+p {
+    font-size: 12px;
+}
+.aisatu {
+    margin: 8% 5% 0;
+    padding-bottom: 8%;
+}
+.ai {
+    border-bottom: 3px solid #f29c9f;
+}
+.period {
+    margin-top: 8%;
+    padding: 0 5% 8%;
+}
+.spring {
+    margin: 10% 5% 0;
+}
+.spimage {
+    margin: 4% 2% 0;
+}
+.spcapton {
+    position: absolute;
+    right: 5%;
+}
+.summer {
+    margin: 17% 5% 0;
+}
+.smimage {
+    margin: 4% 2% 0;
+}
+.smcaption {
+    position: absolute;
+    right: 5%;
+}
+.autumn {
+    margin: 17% 5% 0;
+}
+.auimage {
+    margin: 4% 2% 0;
+}
+.aucaption {
+    position: absolute;
+    right: 5%;
+}
+.winter {
+    margin: 17% 5% 0;
+}
+.wiimage {
+    margin: 4% 2% 0;
+}
+.wicaption {
+    position: absolute;
+    right: 5%;
+}
+footer {
+    background-color: #f29c9f;
+    padding: 5% 0% 5%;
+    margin-top: 10%;
+    text-align: center;
+    color: #fff4f4;
+}
+
+@media only screen and (min-width:415px) {
+main {
+    max-width: 1200;
+    margin: 0 auto;
+}
+header p {
+    display: none;
+}
+.copy {
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+nav {
+    display: block;
+    border-top: 3px solid #f29c9f;
+}
+nav ul {
+    display: flex;
+    background-color: #EFFFB8;
+    justify-content: space-around;
+}
+nav li {
+    width: calc(100%/4);
+    text-align: center;
+    color: #1d1b1b;
+    padding: 0.8% 0.5%;
+    max-width: 200px;
+	}
+.aisatu {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 14.5%;
+    padding-right: 14.5%;
+}
+h1 {
+    width: 100%;
+    max-width: 250px;
+    margin-left: -10%;
+}
+h2 {
+    margin: 3% 15% 3%;
+}
+h3 {
+    font-size: 40px;
+}
+.aisatu h4 {
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+.aisatu p {
+    font-size: 15px;
+}
+.period {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.period div {
+    width: calc(100%/2);
+}
+.period h4 {
+    font-size: 20px;
+}
+.period p {
+    font-size: 15px;
+}
+.pay {
+    margin-top: 5%;
+}
+.contents {
+    display: flex;
+    margin: 0 10%;
+}
+.contents1 {
+    display: flex;
+    margin: 0 10%;
+}
+.contents p {
+    font-size: 15px;
+}
+.contents1 p {
+    font-size: 15px;
+}
+.contents h4 {
+    font-size: 20px;
+}
+.contents1 h4 {
+    font-size: 20px;
+}
+.spcapton {
+    right: 54%;
+}
+.summer {
+    margin-top: 0;
+    padding-top: 10%;
+}
+.smcaption {
+    right: 14%;
+}
+.aucaption {
+    right: 54%;
+}
+.wicaption {
+    right: 14%;
+}
+footer p {
+    font-size: 15px;
+}
+}
+</style>
+</head>
+
+<body>
+<main>
+  <div class="backsakura">
+    <header>
+      <h1><img src="images/logo.png" alt=""></h1>
+      <p><img src="images/mene.png" alt=""></p>
+    </header>
+    <h2><img src="images/home.jpg" alt=""></h2>
+    <p class="copy">《春の日》鎌田陸花 Copyright©️2020Rikka Kamata All Rights Reserved.</p>
+    <nav>
+      <ul>
+        <li><img src="images/top.png" alt=""></li>
+        <li><img src="images/artist.png" alt=""></li>
+        <li><img src="images/goods.png" alt=""></li>
+        <li><img src="images/guide.png" alt=""></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="overview">
+    <h3>開催概要</h3>
+    <div class="ai">
+      <section class="aisatu">
+        <h4>陽だまりのような暖かな日々の結晶たちー</h4>
+        <p>今年、２０２０年８月２１日をもって、さくらが我が家にやってきて４年目に突入します。４周年を記念し、家族が撮りためた愛犬さくらの写真展を開催いたします。</p>
+        <p>本展は、さくらの緩やかな日々を撮影した写真を、四季事分けられた回廊の他、さくらをモチーフに描かれた絵画なども展示いたします。</p>
+        <p>ぜひ、陽だまりのような暖かい日々をお楽しみください。</p>
+      </section>
+    </div>
+    <section class="period">
+      <div>
+        <h4>開催期間</h4>
+        <p>２０２０年　６月２日（火）〜８月２１日（金）</p>
+        <p>休館日：月曜日（祝日の場合は開館）</p>
+        <p>午前１０：００〜午後１８：００まで</p>
+        <p>入場は閉館３０分前まで</p>
+        <p>最終日は午後１７：００まで</p>
+      </div>
+      <div>
+        <h4>会場</h4>
+        <p>京都市京セラ美術館（〒６０６−８３４４ 京都市左京区岡崎円勝寺町 １２４）</p>
+        <h4 class="pay">入場料</h4>
+        <p>無料</p>
+      </div>
+    </section>
+  </div>
+  <div class="backgreen">
+    <h3>展示内容</h3>
+    <div class="contents">
+      <section class="spring">
+        <h4>１、春の間</h4>
+        <p>さくらと桜</p>
+        <p>様々な春の花と並んだ愛らしいさくらをレンズに収めた写真たちが並びます。春の陽気さを感じ取って頂くと幸いです。</p>
+        <p class="spimage"><img src="images/spring.jpg" alt=""></p>
+        <p class="spcapton">《さくらと桜》</p>
+      </section>
+      <section class="summer">
+        <h4>２、夏の間</h4>
+        <p>夏の海！</p>
+        <p>かんかん照りの中、暑さを和らげる水とさくら。夏のカラッとした暑さと、水により涼しさを感じ取っていただけます。</p>
+        <p class="smimage"><img src="images/summer.jpg" alt=""></p>
+        <p class="smcaption">《冒険です！》</p>
+      </section>
+    </div>
+    <div class="contents1">
+      <section class="autumn">
+        <h4>３、秋の間</h4>
+        <p>色付く秋 </p>
+        <p>秋の色付いた草木を見ると、もう冬が来ることを実感させられます。短い秋を楽しむさくらの姿をご覧ください。</p>
+        <p class="auimage"><img src="images/autumn.jpg" alt=""></p>
+        <p class="aucaption">《大銀杏》</p>
+      </section>
+      <section class="winter">
+        <h4>４、冬の間</h4>
+        <p>寒い冬、モコモコで対策 </p>
+        <p>寒さの厳しい冬。その厳しい冬を乗り越えるため様々な衣服に身を包んだモコモコなさくらをお楽しみください。</p>
+        <p class="wiimage"><img src="images/winter.jpg" alt=""></p>
+        <p class="wicaption">《初詣》</p>
+      </section>
+    </div>
+    <footer>
+      <p><small>Copyright©️さくら展〜４年のあしあと〜　実行委員会　All Rights Reserved.</small></p>
+    </footer>
+  </div>
+</main>
+</body>
+</html>
